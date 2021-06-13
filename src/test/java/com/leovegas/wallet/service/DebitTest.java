@@ -49,9 +49,6 @@ public class DebitTest {
 
         List<Transaction> transactionList = unitUnderTest.getTransactions(wallet.getAccountNumber());
         Assert.assertEquals(2, transactionList.size());
-        Assert.assertEquals(TransactionType.CREDIT, transactionList.get(0).getType());
-        Assert.assertEquals(TransactionType.DEBIT, transactionList.get(1).getType());
-
     }
 
     @Test

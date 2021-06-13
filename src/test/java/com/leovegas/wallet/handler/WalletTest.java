@@ -16,7 +16,7 @@ import java.util.Optional;
 /*
  First run DemoWallet to run the handler tests
 */
-public class WalletRestHandlerTest {
+public class WalletTest {
 
     WalletClientImpl client = new WalletClientImpl();
 
